@@ -50,8 +50,8 @@ export default function FruitsPage (props){
                 },
                 body: JSON.stringify({...updatedData})
             })
-            const data = await response.json()
-            setFoundFruit(data)
+            // const data = await response.json()
+            // setFoundFruit(data)
         } catch (error) {
             console.error(error)
         }
